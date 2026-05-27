@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0125-valid-palindrome](https://github.com/BibinSanju/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/BibinSanju/LeetCode/tree/master/0242-valid-anagram) |
+| [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Sorting
 |  |
@@ -27,5 +28,10 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/BibinSanju/LeetCode/tree/master/0125-valid-palindrome) |
+| [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
