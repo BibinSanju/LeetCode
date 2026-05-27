@@ -3,9 +3,8 @@ class Solution:
         if len(s) != len(t):
             return False
         h1 = defaultdict(int)
-        h2 = defaultdict(int)
         for i in s:
-            h2[ord(i)]+=1
+            h1[ord(i)]+=1
         for j in t:
-            h1[ord(j)]+=1
-        return h1 == h2
+            h1[ord(j)]-=1
+        return False if any( v!=0 for k,v in h1.items()) else True
