@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0283-move-zeroes](https://github.com/BibinSanju/LeetCode/tree/master/0283-move-zeroes) |
 | [0454-4sum-ii](https://github.com/BibinSanju/LeetCode/tree/master/0454-4sum-ii) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Hash Table
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/BibinSanju/LeetCode/tree/master/0125-valid-palindrome) |
+| [0283-move-zeroes](https://github.com/BibinSanju/LeetCode/tree/master/0283-move-zeroes) |
 | [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Greedy
