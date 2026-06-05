@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0523-continuous-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/BibinSanju/LeetCode/tree/master/0560-subarray-sum-equals-k) |
+| [0746-min-cost-climbing-stairs](https://github.com/BibinSanju/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0977-squares-of-a-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/BibinSanju/LeetCode/tree/master/0392-is-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/BibinSanju/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 ## Counting
 |  |
 | ------- |
