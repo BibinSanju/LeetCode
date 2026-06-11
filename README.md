@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0049-group-anagrams](https://github.com/BibinSanju/LeetCode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/BibinSanju/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/BibinSanju/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/BibinSanju/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -177,4 +178,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/0523-continuous-subarray-sum) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
