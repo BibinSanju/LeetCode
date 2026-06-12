@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0974-subarray-sums-divisible-by-k](https://github.com/BibinSanju/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1480-running-sum-of-1d-array](https://github.com/BibinSanju/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+| [1672-richest-customer-wealth](https://github.com/BibinSanju/LeetCode/tree/master/1672-richest-customer-wealth) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 ## Hash Table
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/BibinSanju/LeetCode/tree/master/0036-valid-sudoku) |
+| [1672-richest-customer-wealth](https://github.com/BibinSanju/LeetCode/tree/master/1672-richest-customer-wealth) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 ## Divide and Conquer
 |  |
