@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
+| [2798-number-of-employees-who-met-the-target](https://github.com/BibinSanju/LeetCode/tree/master/2798-number-of-employees-who-met-the-target) |
 ## Hash Table
 |  |
 | ------- |
