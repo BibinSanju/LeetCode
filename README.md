@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1672-richest-customer-wealth](https://github.com/BibinSanju/LeetCode/tree/master/1672-richest-customer-wealth) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/2133-check-if-every-row-and-column-contains-all-numbers) |
+| [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Hash Table
 |  |
 | ------- |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0349-intersection-of-two-arrays](https://github.com/BibinSanju/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/BibinSanju/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Stack
 |  |
 | ------- |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/BibinSanju/LeetCode/tree/master/0383-ransom-note) |
 | [0923-3sum-with-multiplicity](https://github.com/BibinSanju/LeetCode/tree/master/0923-3sum-with-multiplicity) |
+| [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Matrix
 |  |
 | ------- |
