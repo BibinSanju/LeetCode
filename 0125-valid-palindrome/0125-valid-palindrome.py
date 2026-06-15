@@ -1,18 +1,15 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        #raceaecar
-        #race ecar
+        #ra*ceaec*ar
+        #raceeca
 
-        n_str = []
-        for i in s:
-            if i.isalpha():
-                n_str.append(i.lower())
-            elif i.isdigit():
-                n_str.append(i)
-        
-        left, right = 0, len(n_str)-1
+        left, right = 0, len(s)-1
         while left<right:
-            if n_str[left] != n_str[right]:
+            while left < right and not s[left].isalnum():
+                left+=1
+            while left<right and not s[right].isalnum():
+                right-=1
+            if s[left].lower() != s[right].lower():
                 return False
             left+=1
             right-=1
