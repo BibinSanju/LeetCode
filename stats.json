@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 28,
+        "easy": 29,
         "hard": 1,
         "medium": 15,
         "shas": {
@@ -229,8 +229,13 @@
                 "0042-trapping-rain-water.py": "0a53299280fde6c1c4d87c6821d8597365997b2f",
                 "README.md": "af4c5d440c5be9208c556eb70226423ebf0d23a4",
                 "difficulty": "hard"
+            },
+            "0414-third-maximum-number": {
+                "0414-third-maximum-number": "d135f0588f74b0016280badc51d404af1e53f775",
+                "README.md": "c838d7c363f7d0337d95511cb5d0effc9dc2a7c1",
+                "difficulty": "easy"
             }
         },
-        "solved": 44
+        "solved": 45
     }
 }
