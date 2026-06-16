@@ -1,7 +1,7 @@
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         first = second = third = float('-inf')
-        for i in nums:
+        for i in nums: 
             if i == first or i == second or i == third:
                 continue
             elif i > first:
