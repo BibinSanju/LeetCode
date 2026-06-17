@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 31,
+        "easy": 32,
         "hard": 1,
         "medium": 16,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "0e79cbbbde8bfdb8ca3beaca2b5a0685a86cb31b"
+                "": "6db46c9597e63a3eca020b1fe4eec9887dfa22a6"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -249,8 +249,13 @@
                 "0189-rotate-array.py": "2185ddcdcbbe01b22b63f2be991d46f857a9dfab",
                 "README.md": "b6cc9cbea54556b5dfe17f154e2210bbec074ea8",
                 "difficulty": "medium"
+            },
+            "0821-shortest-distance-to-a-character": {
+                "0821-shortest-distance-to-a-character.py": "b53cb91fa359a5a0f84fbfb4a91538b09f7f06d2",
+                "README.md": "b78c6b0229568a93111d50f17ff12f6f9047d454",
+                "difficulty": "easy"
             }
         },
-        "solved": 48
+        "solved": 49
     }
 }

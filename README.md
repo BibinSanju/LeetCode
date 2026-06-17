@@ -29,6 +29,7 @@ A collection of LeetCode questions solved by me!
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/BibinSanju/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0746-min-cost-climbing-stairs](https://github.com/BibinSanju/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
+| [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/0821-shortest-distance-to-a-character) |
 | [0881-boats-to-save-people](https://github.com/BibinSanju/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0923-3sum-with-multiplicity](https://github.com/BibinSanju/LeetCode/tree/master/0923-3sum-with-multiplicity) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/BibinSanju/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions solved by me!
 | [0383-ransom-note](https://github.com/BibinSanju/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/BibinSanju/LeetCode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/0821-shortest-distance-to-a-character) |
 | [0392-is-subsequence](https://github.com/BibinSanju/LeetCode/tree/master/0917-reverse-only-letters) |
 | [1768-merge-strings-alternately](https://github.com/BibinSanju/LeetCode/tree/master/1768-merge-strings-alternately) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions solved by me!
 | [0392-is-subsequence](https://github.com/BibinSanju/LeetCode/tree/master/0392-is-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/0821-shortest-distance-to-a-character) |
 | [0876-middle-of-the-linked-list](https://github.com/BibinSanju/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/BibinSanju/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0917-reverse-only-letters](https://github.com/BibinSanju/LeetCode/tree/master/0917-reverse-only-letters) |
