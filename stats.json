@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 30,
+        "easy": 31,
         "hard": 1,
         "medium": 15,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "a0e9c6fcb7e66c6f21fbd7e022fcde5919ab5ad0"
+                "": "f5c4387aede002302e9e714398849fe043ed3a9f"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -231,16 +231,21 @@
                 "difficulty": "hard"
             },
             "0414-third-maximum-number": {
-                "0414-third-maximum-number": "d135f0588f74b0016280badc51d404af1e53f775",
+                "0414-third-maximum-number.py": "d135f0588f74b0016280badc51d404af1e53f775",
                 "README.md": "c838d7c363f7d0337d95511cb5d0effc9dc2a7c1",
                 "difficulty": "easy"
             },
             "0917-reverse-only-letters": {
-                "0917-reverse-only-letters": "3ec16c6ef9ff8e249e3607001f927d1e06f1709e",
+                "0917-reverse-only-letters.py": "3ec16c6ef9ff8e249e3607001f927d1e06f1709e",
                 "README.md": "b33a72c3299f94780e474cb75785da51d531d2fc",
+                "difficulty": "easy"
+            },
+            "1768-merge-strings-alternately": {
+                "1768-merge-strings-alternately.py": "fe8fe5cfe56319248a941b44202a74d71d7fae82",
+                "README.md": "522811a10e7b51c56b3552a9baa8f367b0ea7326",
                 "difficulty": "easy"
             }
         },
-        "solved": 46
+        "solved": 47
     }
 }
