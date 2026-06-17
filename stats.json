@@ -1,8 +1,8 @@
 {
     "leetcode": {
-        "easy": 32,
+        "easy": 31,
         "hard": 1,
-        "medium": 15,
+        "medium": 16,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "a6fcf3f97933d108f5a379ed7063060a0bda7a77"
+                "": "0e79cbbbde8bfdb8ca3beaca2b5a0685a86cb31b"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -248,7 +248,7 @@
             "0189-rotate-array": {
                 "0189-rotate-array.py": "2185ddcdcbbe01b22b63f2be991d46f857a9dfab",
                 "README.md": "b6cc9cbea54556b5dfe17f154e2210bbec074ea8",
-                "difficulty": "easy"
+                "difficulty": "medium"
             }
         },
         "solved": 48

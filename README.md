@@ -16,6 +16,7 @@ A collection of LeetCode questions solved by me!
 | [0128-longest-consecutive-sequence](https://github.com/BibinSanju/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/BibinSanju/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/BibinSanju/LeetCode/tree/master/0189-rotate-array) |
 | [0219-contains-duplicate-ii](https://github.com/BibinSanju/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/BibinSanju/LeetCode/tree/master/0283-move-zeroes) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions solved by me!
 | [0141-linked-list-cycle](https://github.com/BibinSanju/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/BibinSanju/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/BibinSanju/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/BibinSanju/LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/BibinSanju/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/BibinSanju/LeetCode/tree/master/0283-move-zeroes) |
 | [0349-intersection-of-two-arrays](https://github.com/BibinSanju/LeetCode/tree/master/0349-intersection-of-two-arrays) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions solved by me!
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/BibinSanju/LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
 | [0523-continuous-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/BibinSanju/LeetCode/tree/master/1295-find-numbers-with-even-number-of-digits) |

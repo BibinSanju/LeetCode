@@ -37,28 +37,17 @@ python sync_stats.py --write
 1. Create a new folder using the same naming pattern, for example `0002-add-two-numbers`.
 2. Add the solution file inside that folder, for example `0002-add-two-numbers.py`.
 3. Add the LeetCode problem statement as `0002-add-two-numbers/README.md`.
-4. Add the problem link to every correct topic table in the root `README.md`.
-5. Keep the root README topic marker comments exactly where they are. The start marker must stay directly before `# LeetCode Topics`, and the end marker must stay after the final topic table.
-6. Preserve the topic table format:
-
-```markdown
-## Array
-|  |
-| ------- |
-| [0001-two-sum](https://github.com/BibinSanju/LeetCode/tree/master/0001-two-sum) |
-```
-
-7. Update `stats.json` automatically:
+4. Update the root `README.md` topic tables and `stats.json` together:
 
 ```powershell
-python sync_stats.py --write
+python sync_stats.py --write --problem 0002-add-two-numbers --difficulty medium --topics "Linked List" Math Recursion
 ```
 
-If this is a new problem, the script prompts for difficulty. Enter `easy`, `medium`, or `hard`.
+Use `easy`, `medium`, or `hard` for `--difficulty`. Quote topic names that contain spaces, such as `"Two Pointers"` or `"Linked List"`.
 
 ## How to Use sync_stats.py
 
-Use `sync_stats.py` from the repository root to keep `stats.json` in sync with the problem folders.
+Use `sync_stats.py` from the repository root to keep `stats.json` in sync with the problem folders. It can also update the root `README.md` topic tables when you pass a problem, difficulty, and topics.
 
 Check only:
 
@@ -68,7 +57,7 @@ python sync_stats.py --check
 
 This reports outdated hashes, wrong solution keys, count mismatches, missing entries, or invalid difficulty values. It does not edit files and does not prompt for input.
 
-Write fixes:
+Write hash/stat fixes only:
 
 ```powershell
 python sync_stats.py --write
@@ -80,9 +69,27 @@ This updates `stats.json` in place. If a problem is new or has no valid difficul
 Difficulty for 0002-add-two-numbers (easy/medium/hard):
 ```
 
+Update one problem's root README topics and stats together:
+
+```powershell
+python sync_stats.py --write --problem 0189-rotate-array --difficulty medium --topics Array Math "Two Pointers"
+```
+
+This command:
+
+- Adds the problem to only the topics you list.
+- Removes the problem from old or wrong topic sections.
+- Creates a new topic section when you pass a topic that does not exist yet.
+- Removes an empty topic section after moving the problem out of it.
+- Sorts each topic table by problem number.
+- Refreshes the root README hash, problem hashes, difficulty, and counts in `stats.json`.
+
+If you pass the wrong topics, rerun the same command with the correct `--topics`. The script removes stale topic rows automatically.
+
 The script updates:
 
 - Root README hash
+- Root README topic tables when `--problem`, `--difficulty`, and `--topics` are passed
 - Problem solution hashes
 - Problem README hashes
 - Wrong solution file keys
@@ -135,7 +142,6 @@ For a new problem:
 
 1. Add the problem folder.
 2. Add the solution file and problem `README.md`.
-3. Add the problem to the correct root README topic tables.
-4. Run `python sync_stats.py --write` and enter the difficulty.
-5. Run `python sync_stats.py --check`.
-6. Validate JSON, counts, folder count, and hashes.
+3. Run `python sync_stats.py --write --problem <problem-folder> --difficulty <easy|medium|hard> --topics <topic> ...`.
+4. Run `python sync_stats.py --check`.
+5. Validate JSON, counts, folder count, root README topics, and hashes.
