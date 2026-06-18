@@ -1,6 +1,10 @@
 # LeetCode
 A collection of LeetCode questions solved by me!
 
+## Local LeetCode Sync
+
+This repository includes a Chrome/Edge extension that saves accepted LeetCode submissions into the local repository helper. See the [setup guide](docs/local-leetcode-sync-setup.md) and [privacy policy](docs/local-leetcode-sync-privacy.md).
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
@@ -8,6 +12,7 @@ A collection of LeetCode questions solved by me!
 | ------- |
 | [0001-two-sum](https://github.com/BibinSanju/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/BibinSanju/LeetCode/tree/master/0011-container-with-most-water) |
+| [0027-remove-element](https://github.com/BibinSanju/LeetCode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/BibinSanju/LeetCode/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/BibinSanju/LeetCode/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/BibinSanju/LeetCode/tree/master/0042-trapping-rain-water) |
@@ -101,6 +106,7 @@ A collection of LeetCode questions solved by me!
 | ------- |
 | [0011-container-with-most-water](https://github.com/BibinSanju/LeetCode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/BibinSanju/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0027-remove-element](https://github.com/BibinSanju/LeetCode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/BibinSanju/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/BibinSanju/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
