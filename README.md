@@ -17,6 +17,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0036-valid-sudoku](https://github.com/BibinSanju/LeetCode/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/BibinSanju/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/BibinSanju/LeetCode/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/BibinSanju/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/BibinSanju/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
@@ -90,6 +91,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/BibinSanju/LeetCode/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/BibinSanju/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0242-valid-anagram](https://github.com/BibinSanju/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
@@ -109,6 +111,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0027-remove-element](https://github.com/BibinSanju/LeetCode/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/BibinSanju/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/BibinSanju/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0075-sort-colors](https://github.com/BibinSanju/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/BibinSanju/LeetCode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/BibinSanju/LeetCode/tree/master/0141-linked-list-cycle) |

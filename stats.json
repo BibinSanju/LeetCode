@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 33,
         "hard": 1,
-        "medium": 16,
+        "medium": 17,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "97c953bdfdde84f0ffd7cb4462e220fbdc8bd150"
+                "": "040f776190f650cfb2b6a68597ca36eaeb650b22"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -259,8 +259,13 @@
                 "0027-remove-element.py": "e597fb74e8e07c944204e90a336cfcfe79d1a603",
                 "README.md": "6df05171d75aab07683e5a2c9fa6dcf1973d88c9",
                 "difficulty": "easy"
+            },
+            "0075-sort-colors": {
+                "0075-sort-colors.py": "5ae73ffffeade4b50c883c5cbd52f36e962f5342",
+                "README.md": "991534689c7f00bbce27a99bd5ed5a129edf6d4d",
+                "difficulty": "medium"
             }
         },
-        "solved": 50
+        "solved": 51
     }
 }
