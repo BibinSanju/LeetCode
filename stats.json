@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 33,
+        "easy": 34,
         "hard": 1,
         "medium": 18,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "72770df8c72529a2ae475b93dc555a656f012dfe"
+                "": "1910d8f35a6426f599771c409c5d6bcad94fa497"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -269,8 +269,13 @@
                 "0151-reverse-words-in-a-string.py": "118e66d9a1684bdaf857334a884f97c1f74f07ae",
                 "README.md": "1b374dbb6c775e7b765423d629ae5996ccc4112d",
                 "difficulty": "medium"
+            },
+            "0455-assign-cookies": {
+                "0455-assign-cookies.py": "5ca5571b2c4c0f9e10f8acdcaba6078b989a48dc",
+                "README.md": "9c196eb86e9f18c822c36c7d8ca6c7dc6cdcac3c",
+                "difficulty": "easy"
             }
         },
-        "solved": 52
+        "solved": 53
     }
 }
