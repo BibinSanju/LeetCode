@@ -1,0 +1,1 @@
+to solve in o(1) space, i use boyer - moore voting method, i know the alg, at the end the candiate which remains will be majority element, problem states that there exists one, or i will check the count of the remained candiate after the end of the loop

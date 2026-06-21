@@ -22,6 +22,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0128-longest-consecutive-sequence](https://github.com/BibinSanju/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/BibinSanju/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/BibinSanju/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/BibinSanju/LeetCode/tree/master/0189-rotate-array) |
 | [0219-contains-duplicate-ii](https://github.com/BibinSanju/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
@@ -57,6 +58,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0128-longest-consecutive-sequence](https://github.com/BibinSanju/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/BibinSanju/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/BibinSanju/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/BibinSanju/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/BibinSanju/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/BibinSanju/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/BibinSanju/LeetCode/tree/master/0242-valid-anagram) |
@@ -97,6 +99,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0049-group-anagrams](https://github.com/BibinSanju/LeetCode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/BibinSanju/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/BibinSanju/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/BibinSanju/LeetCode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -183,6 +186,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/BibinSanju/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/BibinSanju/LeetCode/tree/master/0383-ransom-note) |
 | [0923-3sum-with-multiplicity](https://github.com/BibinSanju/LeetCode/tree/master/0923-3sum-with-multiplicity) |
@@ -196,6 +200,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/BibinSanju/LeetCode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
