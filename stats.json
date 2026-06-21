@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 34,
+        "easy": 35,
         "hard": 1,
         "medium": 18,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "1910d8f35a6426f599771c409c5d6bcad94fa497"
+                "": "4d16510b9f63e3f639329715ead1a29daaafcf8d"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -274,8 +274,13 @@
                 "0455-assign-cookies.py": "5ca5571b2c4c0f9e10f8acdcaba6078b989a48dc",
                 "README.md": "9c196eb86e9f18c822c36c7d8ca6c7dc6cdcac3c",
                 "difficulty": "easy"
+            },
+            "0389-find-the-difference": {
+                "0389-find-the-difference.py": "528d9329e0a7e64cd487cbaf61219572e0ce1330",
+                "README.md": "6e9d092aea98add364a0adc8d6176005438bbf96",
+                "difficulty": "easy"
             }
         },
-        "solved": 53
+        "solved": 54
     }
 }

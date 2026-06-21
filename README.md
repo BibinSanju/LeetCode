@@ -66,6 +66,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0349-intersection-of-two-arrays](https://github.com/BibinSanju/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/BibinSanju/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0383-ransom-note](https://github.com/BibinSanju/LeetCode/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/0389-find-the-difference) |
 | [0454-4sum-ii](https://github.com/BibinSanju/LeetCode/tree/master/0454-4sum-ii) |
 | [0523-continuous-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -83,6 +84,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0242-valid-anagram](https://github.com/BibinSanju/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/BibinSanju/LeetCode/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/BibinSanju/LeetCode/tree/master/0383-ransom-note) |
+| [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/BibinSanju/LeetCode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/BibinSanju/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/0821-shortest-distance-to-a-character) |
@@ -100,6 +102,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/BibinSanju/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/BibinSanju/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/BibinSanju/LeetCode/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/BibinSanju/LeetCode/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -229,6 +232,7 @@ This repository includes a Chrome/Edge extension that saves accepted LeetCode su
 | ------- |
 | [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/0268-missing-number) |
+| [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/0389-find-the-difference) |
 ## Sliding Window
 |  |
 | ------- |
