@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 36,
         "hard": 1,
-        "medium": 18,
+        "medium": 19,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "d90270764e3ad4a71a3d80d2595ad395862c619d"
+                "": "72c6af06e1668ebc3010d57a03ac474dc2898137"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -284,8 +284,13 @@
                 "0169-majority-element.py": "2a4a6a1c13b3d04cb68a6dcf0bb052eaca3d1fa2",
                 "README.md": "600e29bc40255a894cc26608c6a549aa7f0a4ea6",
                 "difficulty": "easy"
+            },
+            "0003-longest-substring-without-repeating-characters": {
+                "0003-longest-substring-without-repeating-characters.py": "404472a74781d900cb9740726df8e30c58f3b82e",
+                "README.md": "2067a03a658d2f6fd678e352a93945a80f4a2d60",
+                "difficulty": "medium"
             }
         },
-        "solved": 55
+        "solved": 56
     }
 }
