@@ -1,1 +1,6 @@
+## Approach
+
 Idea my main idea is to reverse the whole string  (im in godmode) -> (edomdog ni mi) and reverse select each word till space and reverse it (godmode in im), but python has split  by space, so split() by space (im, in, godmode) and reverse using twopointer reverse helper
+
+TC = O(n)
+SC = O(n)
