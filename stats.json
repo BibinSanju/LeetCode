@@ -134,7 +134,7 @@
                 "0347-top-k-frequent-elements.py": "9d365492978380a8dede70eaadbcf9c12431e409",
                 "README.md": "535a699c8f34674d3228a09ef5ac56e0b0379726",
                 "difficulty": "medium"
-            },
+            }, 
             "0128-longest-consecutive-sequence": {
                 "0128-longest-consecutive-sequence.py": "cbc2ddab82f98d9c90f83ddd8fac4a80a8b0dc91",
                 "README.md": "206edc7052bab611dd6eca05dec86b58f89150ed",
