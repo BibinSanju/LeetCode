@@ -1,10 +1,6 @@
 # LeetCode
 A collection of LeetCode questions solved by me!
 
-## Local LeetCode Sync
-
-This repository includes a Chrome/Edge extension that saves accepted LeetCode submissions into the local repository helper. See the [setup guide](docs/local-leetcode-sync-setup.md) and [privacy policy](docs/local-leetcode-sync-privacy.md).
-
 <!---Algorithm Categories Start-->
 # Algorithm Categories
 ## Hash Map and Frequency

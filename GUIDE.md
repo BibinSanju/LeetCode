@@ -113,35 +113,6 @@ Manual hash command, if you ever need to inspect one value:
 git hash-object "Hash Map and Frequency/0001-two-sum/0001-two-sum.py"
 ```
 
-## Local LeetCode Browser Automation
-
-The `extension/` folder contains a local Chrome/Edge extension that can save an accepted LeetCode solution into this repository. It talks to the local Python helper in `automation/local_leetcode_server.py`.
-
-Start the helper from the repository root:
-
-```powershell
-python automation/local_leetcode_server.py
-```
-
-The helper prints a local token. Keep that terminal open, then load the extension:
-
-1. Open Chrome or Edge extension management.
-2. Enable developer mode.
-3. Choose "Load unpacked".
-4. Select this repository's `extension` folder.
-5. Open the extension popup and paste the token from the helper.
-
-On a LeetCode problem page:
-
-1. Submit until the result is accepted.
-2. Write or paste your approach notes in LeetCode Notes when possible.
-3. Click `Save to Local Repo`.
-4. If notes cannot be read, type or paste them in the local editor.
-5. Review the preview. If the folder already exists, confirm overwrite.
-6. Click `Save and commit`.
-
-The helper writes the problem folder under the selected primary algorithm category, canonicalizes `README.md`, runs the combined `sync_stats.py` command, validates with `python sync_stats.py --check`, stages only the problem folder plus root `README.md` and `stats.json`, and commits with the Time/Space message shown in the editor.
-
 ## Validate Before Committing
 
 Run these checks after editing files:
