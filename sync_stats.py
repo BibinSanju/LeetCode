@@ -9,14 +9,39 @@ import sys
 from collections import Counter
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 VALID_DIFFICULTIES = {"easy", "medium", "hard"}
 PROBLEM_FOLDER_RE = re.compile(r"^\d{4}-.+")
 README_TOPICS_START = "<!---LeetCode Topics Start-->"
 README_TOPICS_END = "<!---LeetCode Topics End-->"
+README_CATEGORIES_START = "<!---Algorithm Categories Start-->"
+README_CATEGORIES_END = "<!---Algorithm Categories End-->"
 TOPIC_ROW_RE = re.compile(r"^\| \[(?P<label>[^\]]+)\]\((?P<url>[^)]+)\) \|$")
 GITHUB_TREE_URL = "https://github.com/BibinSanju/LeetCode/tree/master"
+ALGORITHM_CATEGORIES = (
+    "Hash Map and Frequency",
+    "Two Pointers",
+    "Sliding Window",
+    "Prefix Sum and Difference Array",
+    "Stack and Monotonic Stack",
+    "Binary Search",
+    "Linked List",
+    "Trees and BST",
+    "Heap and Priority Queue",
+    "Backtracking",
+    "Intervals",
+    "Graph DFS and BFS",
+    "Topological Sort and Dependency Graphs",
+    "Union Find - Disjoint Set Union",
+    "Greedy",
+    "Dynamic Programming",
+    "Trie",
+    "Bit Manipulation",
+    "Shortest Path and Weighted Graph",
+    "Basic Array and String",
+)
 SOLUTION_EXTENSIONS = {
     ".c",
     ".cc",
@@ -84,14 +109,59 @@ def write_stats(stats_path: Path, stats: dict[str, Any]) -> None:
 
 
 def problem_folders(repo_root: Path) -> list[Path]:
+    problem_dirs: list[Path] = []
+    category_names = set(ALGORITHM_CATEGORIES)
+
+    for path in repo_root.iterdir():
+        if not path.is_dir():
+            continue
+
+        if PROBLEM_FOLDER_RE.match(path.name):
+            problem_dirs.append(path)
+            continue
+
+        if path.name in category_names:
+            problem_dirs.extend(
+                child
+                for child in path.iterdir()
+                if child.is_dir() and PROBLEM_FOLDER_RE.match(child.name)
+            )
+
+    seen: dict[str, Path] = {}
+    duplicates: list[str] = []
+    for problem_dir in problem_dirs:
+        existing = seen.get(problem_dir.name)
+        if existing is None:
+            seen[problem_dir.name] = problem_dir
+        else:
+            duplicates.append(
+                f"{problem_dir.name} ({relative_to_repo(repo_root, existing)}, "
+                f"{relative_to_repo(repo_root, problem_dir)})"
+            )
+
+    if duplicates:
+        raise StatsError(f"duplicate problem folders found: {', '.join(duplicates)}")
+
     return sorted(
-        (
-            path
-            for path in repo_root.iterdir()
-            if path.is_dir() and PROBLEM_FOLDER_RE.match(path.name)
-        ),
-        key=lambda path: path.name,
+        problem_dirs,
+        key=lambda path: (problem_sort_key(path.name), relative_to_repo(repo_root, path)),
     )
+
+
+def find_problem_dir(repo_root: Path, problem_name: str) -> Path | None:
+    for problem_dir in problem_folders(repo_root):
+        if problem_dir.name == problem_name:
+            return problem_dir
+    return None
+
+
+def problem_algorithm(repo_root: Path, problem_dir: Path) -> str | None:
+    parent = problem_dir.parent
+    if parent == repo_root:
+        return None
+    if parent.parent == repo_root and parent.name in ALGORITHM_CATEGORIES:
+        return parent.name
+    return None
 
 
 def problem_sort_key(problem_name: str) -> tuple[int, str]:
@@ -99,6 +169,17 @@ def problem_sort_key(problem_name: str) -> tuple[int, str]:
     if match:
         return int(match.group(1)), problem_name
     return sys.maxsize, problem_name
+
+
+def github_tree_url(repo_root: Path, path: Path) -> str:
+    encoded_path = "/".join(
+        quote(part, safe="") for part in relative_to_repo(repo_root, path).split("/")
+    )
+    return f"{GITHUB_TREE_URL}/{encoded_path}"
+
+
+def problem_category_row(repo_root: Path, problem_dir: Path) -> str:
+    return f"| [{problem_dir.name}]({github_tree_url(repo_root, problem_dir)}) |"
 
 
 def find_solution_file(problem_dir: Path) -> Path:
@@ -359,6 +440,103 @@ def update_root_readme_topics(
     return changes
 
 
+def algorithm_category_block(repo_root: Path, problem_dirs: list[Path]) -> list[str]:
+    rows_by_category: dict[str, list[Path]] = {
+        category: [] for category in ALGORITHM_CATEGORIES
+    }
+    uncategorized: list[Path] = []
+
+    for problem_dir in problem_dirs:
+        category = problem_algorithm(repo_root, problem_dir)
+        if category is None:
+            uncategorized.append(problem_dir)
+        else:
+            rows_by_category[category].append(problem_dir)
+
+    lines = [README_CATEGORIES_START, "# Algorithm Categories"]
+    for category in ALGORITHM_CATEGORIES:
+        rows = sorted(
+            rows_by_category[category],
+            key=lambda path: problem_sort_key(path.name),
+        )
+        lines.extend([f"## {category}", "| Problem |", "| ------- |"])
+        lines.extend(problem_category_row(repo_root, problem_dir) for problem_dir in rows)
+
+    if uncategorized:
+        lines.extend(["## Uncategorized", "| Problem |", "| ------- |"])
+        lines.extend(
+            problem_category_row(repo_root, problem_dir)
+            for problem_dir in sorted(
+                uncategorized,
+                key=lambda path: problem_sort_key(path.name),
+            )
+        )
+
+    lines.append(README_CATEGORIES_END)
+    return lines
+
+
+def readme_category_marker_indexes(lines: list[str]) -> tuple[int, int] | None:
+    marker_pairs = (
+        (README_CATEGORIES_START, README_CATEGORIES_END),
+        (README_TOPICS_START, README_TOPICS_END),
+    )
+
+    for start_marker, end_marker in marker_pairs:
+        start_indexes = [i for i, line in enumerate(lines) if line == start_marker]
+        end_indexes = [i for i, line in enumerate(lines) if line == end_marker]
+        if len(start_indexes) > 1 or len(end_indexes) > 1:
+            raise StatsError(
+                f"README.md must not have duplicate {start_marker} or {end_marker} markers"
+            )
+        if start_indexes or end_indexes:
+            if len(start_indexes) != 1 or len(end_indexes) != 1:
+                raise StatsError(
+                    f"README.md must have matching {start_marker} and {end_marker} markers"
+                )
+            start_index = start_indexes[0]
+            end_index = end_indexes[0]
+            if start_index >= end_index:
+                raise StatsError("README.md algorithm category markers are out of order")
+            return start_index, end_index
+
+    return None
+
+
+def update_root_readme_categories(
+    repo_root: Path,
+    problem_dirs: list[Path],
+    *,
+    write: bool,
+) -> list[str]:
+    readme_path = repo_root / "README.md"
+    if not readme_path.is_file():
+        raise StatsError("README.md was not found")
+
+    original_text = readme_path.read_text(encoding="utf-8")
+    lines = original_text.splitlines()
+    marker_indexes = readme_category_marker_indexes(lines)
+    replacement = algorithm_category_block(repo_root, problem_dirs)
+
+    if marker_indexes is None:
+        prefix = lines
+        if prefix and prefix[-1].strip():
+            prefix = prefix + [""]
+        new_lines = prefix + replacement
+    else:
+        start_index, end_index = marker_indexes
+        new_lines = lines[:start_index] + replacement + lines[end_index + 1 :]
+
+    new_text = "\n".join(new_lines) + "\n"
+    if new_text == original_text:
+        return []
+
+    if write:
+        readme_path.write_text(new_text, encoding="utf-8")
+
+    return ["README.md: update algorithm categories"]
+
+
 def build_expected_stats(
     repo_root: Path,
     stats: dict[str, Any],
@@ -462,14 +640,14 @@ def build_expected_stats(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Check or update LeetCode stats.json hashes, counts, and root README topics.",
+        description="Check or update LeetCode stats.json hashes, counts, and algorithm README links.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"
             "  python sync_stats.py --check\n"
             "  python sync_stats.py --write\n"
             "  python sync_stats.py --write --problem 0189-rotate-array --difficulty medium "
-            "--topics Array Math \"Two Pointers\""
+            "--algorithm \"Two Pointers\""
         ),
     )
     mode = parser.add_mutually_exclusive_group(required=True)
@@ -485,7 +663,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--problem",
-        help="problem folder to place in root README topics, for example 0189-rotate-array",
+        help="problem folder to update, for example 0189-rotate-array",
     )
     parser.add_argument(
         "--difficulty",
@@ -493,18 +671,30 @@ def parse_args() -> argparse.Namespace:
         help="difficulty to store for --problem",
     )
     parser.add_argument(
+        "--algorithm",
+        choices=ALGORITHM_CATEGORIES,
+        help="primary algorithm folder for --problem; quote names with spaces",
+    )
+    parser.add_argument(
         "--topics",
         nargs="+",
-        help="topic names for --problem; quote names with spaces, for example \"Two Pointers\"",
+        help=argparse.SUPPRESS,
     )
 
     args = parser.parse_args()
-    topic_args = [args.problem is not None, args.difficulty is not None, args.topics is not None]
-    if any(topic_args):
+    if args.topics is not None:
+        parser.error("--topics is no longer used; pass --algorithm instead")
+
+    problem_args = [
+        args.problem is not None,
+        args.difficulty is not None,
+        args.algorithm is not None,
+    ]
+    if any(problem_args):
         if not args.write:
-            parser.error("--problem, --difficulty, and --topics can only be used with --write")
-        if not all(topic_args):
-            parser.error("--problem, --difficulty, and --topics must be used together")
+            parser.error("--problem, --difficulty, and --algorithm can only be used with --write")
+        if not all(problem_args):
+            parser.error("--problem, --difficulty, and --algorithm must be used together")
     return args
 
 
@@ -514,16 +704,26 @@ def main() -> int:
     stats_path = repo_root / "stats.json"
 
     try:
+        problem_dirs = problem_folders(repo_root)
         readme_changes: list[str] = []
         difficulty_overrides: dict[str, str] | None = None
         if args.problem:
-            readme_changes = update_root_readme_topics(
-                repo_root,
-                args.problem,
-                args.topics,
-            )
+            problem_dir = find_problem_dir(repo_root, args.problem)
+            if problem_dir is None:
+                raise StatsError(f"{args.problem}: problem folder was not found")
+            actual_algorithm = problem_algorithm(repo_root, problem_dir)
+            if actual_algorithm != args.algorithm:
+                raise StatsError(
+                    f"{args.problem}: expected algorithm folder {args.algorithm}, "
+                    f"found {actual_algorithm or 'repo root'}"
+                )
             difficulty_overrides = {args.problem: args.difficulty}
 
+        readme_changes = update_root_readme_categories(
+            repo_root,
+            problem_dirs,
+            write=args.write,
+        )
         current = load_stats(stats_path)
         expected, changes = build_expected_stats(
             repo_root,
@@ -547,7 +747,7 @@ def main() -> int:
 
     if changes:
         write_stats(stats_path, expected)
-        target = "README.md and stats.json" if args.problem else "stats.json"
+        target = "README.md and stats.json" if readme_changes else "stats.json"
         print(f"Updated {target} ({len(changes)} change(s)):")
         for change in changes:
             print(f"- {change}")

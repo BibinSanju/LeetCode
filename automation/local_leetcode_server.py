@@ -65,6 +65,28 @@ LANGUAGE_EXTENSIONS = {
     "typescript": ".ts",
     "ts": ".ts",
 }
+ALGORITHM_CATEGORIES = (
+    "Hash Map and Frequency",
+    "Two Pointers",
+    "Sliding Window",
+    "Prefix Sum and Difference Array",
+    "Stack and Monotonic Stack",
+    "Binary Search",
+    "Linked List",
+    "Trees and BST",
+    "Heap and Priority Queue",
+    "Backtracking",
+    "Intervals",
+    "Graph DFS and BFS",
+    "Topological Sort and Dependency Graphs",
+    "Union Find - Disjoint Set Union",
+    "Greedy",
+    "Dynamic Programming",
+    "Trie",
+    "Bit Manipulation",
+    "Shortest Path and Weighted Graph",
+    "Basic Array and String",
+)
 
 
 class LocalLeetCodeError(Exception):
@@ -139,6 +161,14 @@ def clean_topics(topics: Any) -> list[str]:
     return cleaned
 
 
+def clean_algorithm(value: Any) -> str:
+    algorithm = str(value or "").strip()
+    if algorithm not in ALGORITHM_CATEGORIES:
+        choices = ", ".join(ALGORITHM_CATEGORIES)
+        raise LocalLeetCodeError(f"algorithm must be one of: {choices}")
+    return algorithm
+
+
 def normalize_difficulty(value: Any) -> str:
     difficulty = str(value).strip().lower()
     if difficulty not in VALID_DIFFICULTIES:
@@ -182,6 +212,7 @@ def normalize_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
     difficulty = normalize_difficulty(problem.get("difficulty"))
     topics = clean_topics(problem.get("topics"))
+    algorithm = clean_algorithm(payload.get("algorithm") or problem.get("algorithm"))
     extension = language_extension(payload.get("language"), payload.get("langSlug"))
 
     code = str(payload.get("code") or "").replace("\r\n", "\n")
@@ -198,6 +229,7 @@ def normalize_payload(payload: dict[str, Any]) -> dict[str, Any]:
 
     return {
         "folder": folder,
+        "algorithm": algorithm,
         "difficulty": difficulty,
         "topics": topics,
         "extension": extension,
@@ -206,6 +238,28 @@ def normalize_payload(payload: dict[str, Any]) -> dict[str, Any]:
         "commitMessage": commit_message,
         "overwrite": bool(payload.get("overwrite")),
     }
+
+
+def relative_to_repo(root: Path, path: Path) -> str:
+    return path.relative_to(root).as_posix()
+
+
+def problem_dir_for(root: Path, normalized: dict[str, Any]) -> Path:
+    return root / normalized["algorithm"] / normalized["folder"]
+
+
+def find_existing_problem_dirs(root: Path, folder: str) -> list[Path]:
+    matches: list[Path] = []
+    root_candidate = root / folder
+    if root_candidate.is_dir():
+        matches.append(root_candidate)
+
+    for algorithm in ALGORITHM_CATEGORIES:
+        candidate = root / algorithm / folder
+        if candidate.is_dir():
+            matches.append(candidate)
+
+    return matches
 
 
 def existing_solution_files(problem_dir: Path) -> list[str]:
@@ -221,13 +275,23 @@ def existing_solution_files(problem_dir: Path) -> list[str]:
 def preview_payload(root: Path, payload: dict[str, Any]) -> dict[str, Any]:
     normalized = normalize_payload(payload)
     folder = normalized["folder"]
-    problem_dir = root / folder
+    problem_dir = problem_dir_for(root, normalized)
+    target_resolved = problem_dir.resolve()
+    existing_dirs = find_existing_problem_dirs(root, folder)
+    conflicting_dirs = [
+        path for path in existing_dirs if path.resolve() != target_resolved
+    ]
     solution_file = f"{folder}{normalized['extension']}"
+    problem_path = relative_to_repo(root, problem_dir)
     return {
         "problemFolder": folder,
+        "algorithm": normalized["algorithm"],
+        "problemPath": problem_path,
         "exists": problem_dir.exists(),
-        "solutionPath": f"{folder}/{solution_file}",
-        "readmePath": f"{folder}/README.md",
+        "conflict": bool(conflicting_dirs),
+        "existingPath": relative_to_repo(root, existing_dirs[0]) if existing_dirs else "",
+        "solutionPath": f"{problem_path}/{solution_file}",
+        "readmePath": f"{problem_path}/README.md",
         "existingFiles": sorted(child.name for child in problem_dir.iterdir())
         if problem_dir.is_dir()
         else [],
@@ -253,10 +317,24 @@ def canonicalize_readme(problem_dir: Path) -> None:
 
 def write_problem_files(root: Path, normalized: dict[str, Any]) -> None:
     folder = normalized["folder"]
-    problem_dir = root / folder
+    problem_dir = problem_dir_for(root, normalized)
+    target_resolved = problem_dir.resolve()
+    conflicting_dirs = [
+        path
+        for path in find_existing_problem_dirs(root, folder)
+        if path.resolve() != target_resolved
+    ]
+    if conflicting_dirs:
+        paths = ", ".join(relative_to_repo(root, path) for path in conflicting_dirs)
+        raise LocalLeetCodeError(
+            f"{folder} already exists in another algorithm folder: {paths}"
+        )
+
     exists = problem_dir.exists()
     if exists and not normalized["overwrite"]:
-        raise LocalLeetCodeError(f"{folder} already exists; confirm overwrite first")
+        raise LocalLeetCodeError(
+            f"{relative_to_repo(root, problem_dir)} already exists; confirm overwrite first"
+        )
 
     problem_dir.mkdir(parents=True, exist_ok=True)
     canonicalize_readme(problem_dir)
@@ -281,8 +359,8 @@ def sync_stats(root: Path, normalized: dict[str, Any]) -> list[str]:
         normalized["folder"],
         "--difficulty",
         normalized["difficulty"],
-        "--topics",
-        *normalized["topics"],
+        "--algorithm",
+        normalized["algorithm"],
     ]
     write_result = command_or_error(command, cwd=root)
     check_result = command_or_error([sys.executable, "sync_stats.py", "--check"], cwd=root)
@@ -290,8 +368,8 @@ def sync_stats(root: Path, normalized: dict[str, Any]) -> list[str]:
 
 
 def commit_changes(root: Path, normalized: dict[str, Any]) -> dict[str, Any]:
-    folder = normalized["folder"]
-    pathspecs = [folder, "README.md", "stats.json"]
+    problem_path = relative_to_repo(root, problem_dir_for(root, normalized))
+    pathspecs = [problem_path, "README.md", "stats.json"]
 
     command_or_error(["git", "add", "--", *pathspecs], cwd=root)
     diff_result = run_command(["git", "diff", "--cached", "--quiet", "--", *pathspecs], cwd=root)

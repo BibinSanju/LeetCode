@@ -3,6 +3,50 @@
   const TOKEN_HEADER = "X-Local-LeetCode-Token";
   const BRIDGE_SOURCE = "local-leetcode-sync-content";
   const PAGE_SOURCE = "local-leetcode-sync-page";
+  const ALGORITHM_CATEGORIES = [
+    "Hash Map and Frequency",
+    "Two Pointers",
+    "Sliding Window",
+    "Prefix Sum and Difference Array",
+    "Stack and Monotonic Stack",
+    "Binary Search",
+    "Linked List",
+    "Trees and BST",
+    "Heap and Priority Queue",
+    "Backtracking",
+    "Intervals",
+    "Graph DFS and BFS",
+    "Topological Sort and Dependency Graphs",
+    "Union Find - Disjoint Set Union",
+    "Greedy",
+    "Dynamic Programming",
+    "Trie",
+    "Bit Manipulation",
+    "Shortest Path and Weighted Graph",
+    "Basic Array and String"
+  ];
+  const ALGORITHM_TOPIC_RULES = [
+    ["Two Pointers", ["Two Pointers"]],
+    ["Sliding Window", ["Sliding Window"]],
+    ["Prefix Sum and Difference Array", ["Prefix Sum"]],
+    ["Stack and Monotonic Stack", ["Stack", "Monotonic Stack"]],
+    ["Binary Search", ["Binary Search"]],
+    ["Linked List", ["Linked List"]],
+    ["Trees and BST", ["Tree", "Binary Tree", "Binary Search Tree"]],
+    ["Heap and Priority Queue", ["Heap (Priority Queue)"]],
+    ["Backtracking", ["Backtracking"]],
+    ["Intervals", ["Interval"]],
+    ["Graph DFS and BFS", ["Graph", "Depth-First Search", "Breadth-First Search"]],
+    ["Topological Sort and Dependency Graphs", ["Topological Sort"]],
+    ["Union Find - Disjoint Set Union", ["Union Find"]],
+    ["Greedy", ["Greedy"]],
+    ["Dynamic Programming", ["Dynamic Programming"]],
+    ["Trie", ["Trie"]],
+    ["Bit Manipulation", ["Bit Manipulation"]],
+    ["Shortest Path and Weighted Graph", ["Shortest Path"]],
+    ["Hash Map and Frequency", ["Hash Table", "Counting"]],
+    ["Basic Array and String", ["Array", "String", "Math", "Matrix", "Simulation"]]
+  ];
 
   if (window.__localLeetcodeSyncContentInstalled) {
     return;
@@ -208,12 +252,33 @@
       .filter(Boolean);
   }
 
+  function questionTopicNames(question) {
+    return (question.topicTags || []).map((topic) => String(topic.name || "").trim()).filter(Boolean);
+  }
+
+  function suggestAlgorithm(question) {
+    const topicSet = new Set(questionTopicNames(question));
+    for (const [algorithm, topics] of ALGORITHM_TOPIC_RULES) {
+      if (topics.some((topic) => topicSet.has(topic))) {
+        return algorithm;
+      }
+    }
+    return "Basic Array and String";
+  }
+
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function algorithmOptions(selectedAlgorithm) {
+    return ALGORITHM_CATEGORIES.map((algorithm) => {
+      const selected = algorithm === selectedAlgorithm ? " selected" : "";
+      return `<option value="${escapeHtml(algorithm)}"${selected}>${escapeHtml(algorithm)}</option>`;
+    }).join("");
   }
 
   async function collectPageData() {
@@ -281,6 +346,7 @@
         difficulty: modal.querySelector("[name='difficulty']").value,
         topics: splitTopics(modal.querySelector("[name='topics']").value)
       },
+      algorithm: modal.querySelector("[name='algorithm']").value,
       language: modal.querySelector("[name='language']").value.trim(),
       langSlug: modal.querySelector("[name='langSlug']").value.trim(),
       code: modal.querySelector("[name='code']").value,
@@ -348,7 +414,8 @@
       token: ""
     });
     const question = pageData.question;
-    const topics = (question.topicTags || []).map((topic) => topic.name).join(", ");
+    const topics = questionTopicNames(question).join(", ");
+    const algorithm = suggestAlgorithm(question);
     const difficulty = String(question.difficulty || "Medium").toLowerCase();
     const folder = problemFolder(question);
 
@@ -390,7 +457,13 @@
             </select>
           </label>
           <label class="lls-full">
-            Topics, comma separated
+            Primary algorithm
+            <select name="algorithm">
+              ${algorithmOptions(algorithm)}
+            </select>
+          </label>
+          <label class="lls-full">
+            LeetCode topics, comma separated
             <input name="topics" type="text" value="${escapeHtml(topics)}">
           </label>
           <label>

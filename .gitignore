@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
 automation/local_leetcode_token.json
-automation
-extension
+automation/
+extension/
 GUIDE.md
 sync_stats.py
