@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 36,
+        "easy": 37,
         "hard": 1,
         "medium": 21,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "82e4bedde14ef39c73ef009c609083b478ddbb46"
+                "": "30998a0626fde2f84ca95f14ea1c28079c8a18ee"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -299,8 +299,13 @@
                 "0567-permutation-in-string.py": "2e820b9ba896287fd33eacf741e7183f8575f66d",
                 "README.md": "c550aea42de113a9cc407da99963b3636cfa22f4",
                 "difficulty": "medium"
+            },
+            "0643-maximum-average-subarray-i": {
+                "0643-maximum-average-subarray-i.py": "e06adb1900c8140cccfad1ee4e71c0ae920c2432",
+                "README.md": "dad47a983f974660292261bf11d3c66809a315be",
+                "difficulty": "easy"
             }
         },
-        "solved": 58
+        "solved": 59
     }
 }
