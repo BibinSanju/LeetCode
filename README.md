@@ -47,6 +47,7 @@ A collection of LeetCode questions solved by me!
 | [0003-longest-substring-without-repeating-characters](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0219-contains-duplicate-ii) |
+| [0567-permutation-in-string](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0567-permutation-in-string) |
 ## Prefix Sum and Difference Array
 | Problem |
 | ------- |

@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 36,
         "hard": 1,
-        "medium": 20,
+        "medium": 21,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "cea752527c23fca09e168e0cba1423ae3cc4caf8"
+                "": "82e4bedde14ef39c73ef009c609083b478ddbb46"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -294,8 +294,13 @@
                 "0209-minimum-size-subarray-sum.py": "30ca23c850475c1e09c8c6b5f848a426f58e3936",
                 "README.md": "420e7a14a29ec4dea934d8c7b0ef21d7cd815c13",
                 "difficulty": "medium"
+            },
+            "0567-permutation-in-string": {
+                "0567-permutation-in-string.py": "2e820b9ba896287fd33eacf741e7183f8575f66d",
+                "README.md": "c550aea42de113a9cc407da99963b3636cfa22f4",
+                "difficulty": "medium"
             }
         },
-        "solved": 57
+        "solved": 58
     }
 }
