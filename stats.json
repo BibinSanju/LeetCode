@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 37,
         "hard": 1,
-        "medium": 23,
+        "medium": 24,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "30baab2b6d9af7854896b9301d31d6114d8c0b86"
+                "": "97cd377178fb1d98c5d44d46204a40182ebefac3"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -314,8 +314,13 @@
                 "2461-maximum-sum-of-distinct-subarrays-with-length-k.py": "657b21a570dad6ad5161e4b14ba3fa5d76130952",
                 "README.md": "fbbc4d8b7bff25a99097a6fb7bcfcfa4b6779b9c",
                 "difficulty": "medium"
+            },
+            "1004-max-consecutive-ones-iii": {
+                "1004-max-consecutive-ones-iii.py": "cd85b489bd0b032f0d4f518488d9e7e2ffa4c544",
+                "README.md": "e6776825be28d4cd44e8977968cf13cbb8cb9b90",
+                "difficulty": "medium"
             }
         },
-        "solved": 61
+        "solved": 62
     }
 }
