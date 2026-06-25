@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 37,
         "hard": 1,
-        "medium": 21,
+        "medium": 22,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "30998a0626fde2f84ca95f14ea1c28079c8a18ee"
+                "": "15e10840fadf801dde2cb802d6d87a73a838c2dc"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -304,8 +304,13 @@
                 "0643-maximum-average-subarray-i.py": "e06adb1900c8140cccfad1ee4e71c0ae920c2432",
                 "README.md": "dad47a983f974660292261bf11d3c66809a315be",
                 "difficulty": "easy"
+            },
+            "0438-find-all-anagrams-in-a-string": {
+                "0438-find-all-anagrams-in-a-string.py": "fa3f652676eda7a3afacf9f3c754b2130faacb5f",
+                "README.md": "e3e92855591a4d200eb095211e9251751c8db4be",
+                "difficulty": "medium"
             }
         },
-        "solved": 59
+        "solved": 60
     }
 }
