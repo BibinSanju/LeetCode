@@ -50,6 +50,7 @@ A collection of LeetCode questions solved by me!
 | [0438-find-all-anagrams-in-a-string](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0643-maximum-average-subarray-i) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Prefix Sum and Difference Array
 | Problem |
 | ------- |
