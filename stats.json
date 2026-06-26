@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 37,
         "hard": 1,
-        "medium": 24,
+        "medium": 25,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "97cd377178fb1d98c5d44d46204a40182ebefac3"
+                "": "8d95814627a2d93b77217eb6c23f2585f9eafda8"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -319,8 +319,13 @@
                 "1004-max-consecutive-ones-iii.py": "cd85b489bd0b032f0d4f518488d9e7e2ffa4c544",
                 "README.md": "e6776825be28d4cd44e8977968cf13cbb8cb9b90",
                 "difficulty": "medium"
+            },
+            "1456-maximum-number-of-vowels-in-a-substring-of-given-length": {
+                "1456-maximum-number-of-vowels-in-a-substring-of-given-length.py": "58ff383deda8043f3b7933b27dbbe4f6c44c631f",
+                "README.md": "a94644926511011da2c22b202494bdcdf346edd7",
+                "difficulty": "medium"
             }
         },
-        "solved": 62
+        "solved": 63
     }
 }
