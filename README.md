@@ -68,6 +68,9 @@ A collection of LeetCode questions solved by me!
 | Problem |
 | ------- |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/Binary%20Search/2529-maximum-count-of-positive-integer-and-negative-integer) |
+## Divide and Conquer
+| Problem |
+| ------- |
 ## Linked List
 | Problem |
 | ------- |
