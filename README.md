@@ -67,6 +67,7 @@ A collection of LeetCode questions solved by me!
 ## Binary Search
 | Problem |
 | ------- |
+| [0704-binary-search](https://github.com/BibinSanju/LeetCode/tree/master/Binary%20Search/0704-binary-search) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/BibinSanju/LeetCode/tree/master/Binary%20Search/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Divide and Conquer
 | Problem |
