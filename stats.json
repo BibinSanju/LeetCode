@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 37,
         "hard": 1,
-        "medium": 25,
+        "medium": 26,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "8d95814627a2d93b77217eb6c23f2585f9eafda8"
+                "": "f964b1bfb07c19cbcdbdf1f84e1a45d3319cbc38"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -324,8 +324,13 @@
                 "1456-maximum-number-of-vowels-in-a-substring-of-given-length.py": "58ff383deda8043f3b7933b27dbbe4f6c44c631f",
                 "README.md": "a94644926511011da2c22b202494bdcdf346edd7",
                 "difficulty": "medium"
+            },
+            "0904-fruit-into-baskets": {
+                "0904-fruit-into-baskets.py": "c70a492a50bb77b5bd895852995c44cd3fcb9875",
+                "README.md": "e611323a4c2fa785b2d95a88e39718289315ba88",
+                "difficulty": "medium"
             }
         },
-        "solved": 63
+        "solved": 64
     }
 }
