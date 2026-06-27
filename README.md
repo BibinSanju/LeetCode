@@ -71,6 +71,7 @@ A collection of LeetCode questions solved by me!
 ## Divide and Conquer
 | Problem |
 | ------- |
+| [0912-sort-an-array](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0912-sort-an-array) |
 ## Linked List
 | Problem |
 | ------- |
