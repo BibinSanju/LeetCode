@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 37,
+        "easy": 38,
         "hard": 1,
         "medium": 26,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "f964b1bfb07c19cbcdbdf1f84e1a45d3319cbc38"
+                "": "20b139d859803261d87162c82d2a8fa4aca8c0cc"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -329,8 +329,13 @@
                 "0904-fruit-into-baskets.py": "c70a492a50bb77b5bd895852995c44cd3fcb9875",
                 "README.md": "e611323a4c2fa785b2d95a88e39718289315ba88",
                 "difficulty": "medium"
+            },
+            "0338-counting-bits": {
+                "0338-counting-bits.py": "5db7c02ca26291d3f0abd6e97d60e74de8719f8d",
+                "README.md": "03ecabdfa914f0e1d6c022d3c2faaea0b2c7aad7",
+                "difficulty": "easy"
             }
         },
-        "solved": 64
+        "solved": 65
     }
 }

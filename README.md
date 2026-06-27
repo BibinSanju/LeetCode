@@ -106,6 +106,7 @@ A collection of LeetCode questions solved by me!
 ## Dynamic Programming
 | Problem |
 | ------- |
+| [0338-counting-bits](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/0338-counting-bits) |
 | [0746-min-cost-climbing-stairs](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/0746-min-cost-climbing-stairs) |
 ## Trie
 | Problem |
