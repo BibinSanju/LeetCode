@@ -116,6 +116,7 @@ A collection of LeetCode questions solved by me!
 | ------- |
 | [0136-single-number](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0191-number-of-1-bits) |
+| [0231-power-of-two](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0231-power-of-two) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0389-find-the-difference) |
 ## Shortest Path and Weighted Graph
