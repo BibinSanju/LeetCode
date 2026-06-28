@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 41,
+        "easy": 42,
         "hard": 4,
         "medium": 31,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "4fbd591d094ca423662ce2d1a0b6b479ff08f740"
+                "": "85180aafaf79198cd3bfa67a85263db33c90a5e5"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -389,8 +389,13 @@
                 "0646-maximum-length-of-pair-chain.py": "c4d332caf276eb13b4989a7eb92bfafddb1d5e78",
                 "README.md": "4cbc0211dcd49c9b83cce92905ee04d21ca1a83d",
                 "difficulty": "medium"
+            },
+            "0292-nim-game": {
+                "0292-nim-game.py": "ec6e6c131ea8b4e89b0dd9d0dd65bcddf6343bc8",
+                "README.md": "60b48b2b3fbc3c098052d3299beae59a0b46e3a4",
+                "difficulty": "easy"
             }
         },
-        "solved": 76
+        "solved": 77
     }
 }
