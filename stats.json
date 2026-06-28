@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 42,
         "hard": 4,
-        "medium": 31,
+        "medium": 32,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "85180aafaf79198cd3bfa67a85263db33c90a5e5"
+                "": "08dcbc4e2b16f544226ab90bebf914575750e034"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -394,8 +394,13 @@
                 "0292-nim-game.py": "ec6e6c131ea8b4e89b0dd9d0dd65bcddf6343bc8",
                 "README.md": "60b48b2b3fbc3c098052d3299beae59a0b46e3a4",
                 "difficulty": "easy"
+            },
+            "1927-sum-game": {
+                "1927-sum-game.py": "1cd56bfab65a84e160c40922d6e5650fa82d3cf8",
+                "README.md": "8d6f8621d06aecd3a667c0044e90a011e994607f",
+                "difficulty": "medium"
             }
         },
-        "solved": 77
+        "solved": 78
     }
 }
