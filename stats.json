@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 42,
+        "easy": 43,
         "hard": 4,
         "medium": 32,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "08dcbc4e2b16f544226ab90bebf914575750e034"
+                "": "a4b7f9ab148f36573d77d448967f35f7094b5f0f"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -399,8 +399,13 @@
                 "1927-sum-game.py": "1cd56bfab65a84e160c40922d6e5650fa82d3cf8",
                 "README.md": "8d6f8621d06aecd3a667c0044e90a011e994607f",
                 "difficulty": "medium"
+            },
+            "0374-guess-number-higher-or-lower": {
+                "0374-guess-number-higher-or-lower.py": "a039bad1d1721ea57998d253457b0e64a8eb5b17",
+                "README.md": "d2c026011cd128b5408e30ff6055203214abf827",
+                "difficulty": "easy"
             }
         },
-        "solved": 78
+        "solved": 79
     }
 }

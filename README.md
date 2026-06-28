@@ -124,6 +124,7 @@ A collection of LeetCode questions solved by me!
 | Problem |
 | ------- |
 | [0292-nim-game](https://github.com/BibinSanju/LeetCode/tree/master/Game%20Theory/0292-nim-game) |
+| [0374-guess-number-higher-or-lower](https://github.com/BibinSanju/LeetCode/tree/master/Game%20Theory/0374-guess-number-higher-or-lower) |
 | [1927-sum-game](https://github.com/BibinSanju/LeetCode/tree/master/Game%20Theory/1927-sum-game) |
 ## Trie
 | Problem |
