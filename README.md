@@ -108,6 +108,7 @@ A collection of LeetCode questions solved by me!
 ## Greedy
 | Problem |
 | ------- |
+| [0055-jump-game](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0881-boats-to-save-people) |
 ## Dynamic Programming
