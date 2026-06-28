@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 41,
         "hard": 4,
-        "medium": 28,
+        "medium": 29,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "019cf5c0d939c9ae0c670c6849845f7eae17a8c7"
+                "": "adf17899513daa15bb00b72e0fa50ccea8382959"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -374,8 +374,13 @@
                 "0135-candy.py": "233ee2ebdf603a396e05d0c090fb42cbcb751ca6",
                 "README.md": "27c68ea40ea7e3e116f0d634aed7182cb66a44d0",
                 "difficulty": "hard"
+            },
+            "0134-gas-station": {
+                "0134-gas-station.py": "665b8fb4b24ebba44c292c9a33cec156c16d608e",
+                "README.md": "d2bb88509c99c22ad7f6ac50d895a85c319dc34a",
+                "difficulty": "medium"
             }
         },
-        "solved": 73
+        "solved": 74
     }
 }
