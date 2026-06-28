@@ -1,7 +1,7 @@
 {
     "leetcode": {
         "easy": 41,
-        "hard": 2,
+        "hard": 3,
         "medium": 27,
         "shas": {
             "0454-4sum-ii": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "894825a925d8bab72a8525874bc39a820d3dfcd4"
+                "": "d0a6c490ac56bb65eaa71e3c7573f7ca4913eda4"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -359,8 +359,13 @@
                 "0004-median-of-two-sorted-arrays.py": "d6720a49943dc86d37fab4fe66993bf07d4c838e",
                 "README.md": "a1abc65734f1b0f3868f5bf69977609caec52f5b",
                 "difficulty": "hard"
+            },
+            "0218-the-skyline-problem": {
+                "0218-the-skyline-problem.py": "844c2217c8895ed2b8d0d9bba2b379e3d7185343",
+                "README.md": "c02162a4009e0ede797727635c5aff28213d46e1",
+                "difficulty": "hard"
             }
         },
-        "solved": 70
+        "solved": 71
     }
 }
