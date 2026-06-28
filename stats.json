@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 43,
         "hard": 4,
-        "medium": 32,
+        "medium": 33,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "a4b7f9ab148f36573d77d448967f35f7094b5f0f"
+                "": "07b01204b6084455c0e11cb58be1e4182cdeaeb5"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -404,8 +404,13 @@
                 "0374-guess-number-higher-or-lower.py": "a039bad1d1721ea57998d253457b0e64a8eb5b17",
                 "README.md": "d2c026011cd128b5408e30ff6055203214abf827",
                 "difficulty": "easy"
+            },
+            "0375-guess-number-higher-or-lower-ii": {
+                "0375-guess-number-higher-or-lower-ii.py": "74585d8315468de23360c53db281e10185402e2d",
+                "README.md": "9c558e357c41674e39880abb6c3209e539de42e2",
+                "difficulty": "medium"
             }
         },
-        "solved": 79
+        "solved": 80
     }
 }
