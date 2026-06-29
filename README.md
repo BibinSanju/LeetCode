@@ -151,5 +151,6 @@ A collection of LeetCode questions solved by me!
 | [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/0821-shortest-distance-to-a-character) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1295-find-numbers-with-even-number-of-digits) |
 | [1672-richest-customer-wealth](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1672-richest-customer-wealth) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2798-number-of-employees-who-met-the-target](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/2798-number-of-employees-who-met-the-target) |
 <!---Algorithm Categories End-->

@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 45,
+        "easy": 46,
         "hard": 4,
         "medium": 34,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "d177e25738e9d1b49a67dea8d1ec30b272a34a88"
+                "": "eb76b1076609fa1bda181433476c98fe9d276ab8"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -424,8 +424,13 @@
                 "1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold.py": "a46bd47d560f6d12c1560e7137b1c4fc3899a5c9",
                 "README.md": "17ea129d2ebd58d4143eb83321c53ceaa8835d38",
                 "difficulty": "medium"
+            },
+            "1967-number-of-strings-that-appear-as-substrings-in-word": {
+                "1967-number-of-strings-that-appear-as-substrings-in-word.py": "49758362e402a6e44fb06809917a383e5f57108b",
+                "README.md": "4f82f84c7721df83c2a43103b5bf9f757071f65b",
+                "difficulty": "easy"
             }
         },
-        "solved": 83
+        "solved": 84
     }
 }
