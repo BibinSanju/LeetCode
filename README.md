@@ -141,6 +141,7 @@ A collection of LeetCode questions solved by me!
 | [0231-power-of-two](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0231-power-of-two) |
 | [0268-missing-number](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0389-find-the-difference) |
+| [0393-utf-8-validation](https://github.com/BibinSanju/LeetCode/tree/master/Bit%20Manipulation/0393-utf-8-validation) |
 ## Shortest Path and Weighted Graph
 | Problem |
 | ------- |

@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 46,
         "hard": 4,
-        "medium": 34,
+        "medium": 35,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "eb76b1076609fa1bda181433476c98fe9d276ab8"
+                "": "3d6884ced9e9b696965650a4022e613bcc06df1e"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -429,8 +429,13 @@
                 "1967-number-of-strings-that-appear-as-substrings-in-word.py": "49758362e402a6e44fb06809917a383e5f57108b",
                 "README.md": "4f82f84c7721df83c2a43103b5bf9f757071f65b",
                 "difficulty": "easy"
+            },
+            "0393-utf-8-validation": {
+                "0393-utf-8-validation.py": "fc4db3319a829f54062570007fdce5bf722cc811",
+                "README.md": "90b7a06f9246ed09655d4a3d44bc1ab7c02d7226",
+                "difficulty": "medium"
             }
         },
-        "solved": 84
+        "solved": 85
     }
 }
