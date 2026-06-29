@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 43,
+        "easy": 44,
         "hard": 4,
         "medium": 33,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "07b01204b6084455c0e11cb58be1e4182cdeaeb5"
+                "": "ed6262e4b410a007cacad7ff5379588a0a7f99d4"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -409,8 +409,13 @@
                 "0375-guess-number-higher-or-lower-ii.py": "74585d8315468de23360c53db281e10185402e2d",
                 "README.md": "9c558e357c41674e39880abb6c3209e539de42e2",
                 "difficulty": "medium"
+            },
+            "2379-minimum-recolors-to-get-k-consecutive-black-blocks": {
+                "2379-minimum-recolors-to-get-k-consecutive-black-blocks.py": "ce1b978312131031d9402a9869d50b3988fcd34f",
+                "README.md": "26f200f7a74d23a416a4a0a9ae41b7a2db7dd0fa",
+                "difficulty": "easy"
             }
         },
-        "solved": 80
+        "solved": 81
     }
 }
