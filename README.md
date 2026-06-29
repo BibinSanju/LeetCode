@@ -115,6 +115,7 @@ A collection of LeetCode questions solved by me!
 | [0134-gas-station](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0134-gas-station) |
 | [0135-candy](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0135-candy) |
 | [0435-non-overlapping-intervals](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0435-non-overlapping-intervals) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0455-assign-cookies](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0455-assign-cookies) |
 | [0646-maximum-length-of-pair-chain](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0646-maximum-length-of-pair-chain) |
 | [0881-boats-to-save-people](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0881-boats-to-save-people) |
