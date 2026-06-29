@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 44,
+        "easy": 45,
         "hard": 4,
         "medium": 33,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "ed6262e4b410a007cacad7ff5379588a0a7f99d4"
+                "": "9de9b7ce8351201515873dc9237712d36d8f8b55"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -414,8 +414,13 @@
                 "2379-minimum-recolors-to-get-k-consecutive-black-blocks.py": "ce1b978312131031d9402a9869d50b3988fcd34f",
                 "README.md": "26f200f7a74d23a416a4a0a9ae41b7a2db7dd0fa",
                 "difficulty": "easy"
+            },
+            "1652-defuse-the-bomb": {
+                "1652-defuse-the-bomb.py": "a968f06b43e3ff6a5a9c41ad56d404c35ac255f4",
+                "README.md": "e558c2b2f431bdd3fbea4b18a54961674287933e",
+                "difficulty": "easy"
             }
         },
-        "solved": 81
+        "solved": 82
     }
 }

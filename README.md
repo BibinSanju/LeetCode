@@ -53,6 +53,7 @@ A collection of LeetCode questions solved by me!
 | [0904-fruit-into-baskets](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/1004-max-consecutive-ones-iii) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1652-defuse-the-bomb](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/1652-defuse-the-bomb) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Prefix Sum and Difference Array
