@@ -1,5 +1,65 @@
-# LeetCode
-A collection of LeetCode questions solved by me!
+# LeetCode Practice Portfolio
+
+A curated collection of my LeetCode solutions, organized by algorithm pattern for fast revision, interview preparation, and steady problem-solving growth. Every solution is written in Python and stored with its problem statement for easy review.
+
+<p align="center">
+  <a href="https://leetcode.com/u/bibinsanju/">
+    <img alt="LeetCode Profile" src="https://img.shields.io/badge/LeetCode-bibinsanju-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
+  </a>
+  <img alt="Python" src="https://img.shields.io/badge/Python-100%25-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Solved" src="https://img.shields.io/badge/Solved-86-2EA44F?style=for-the-badge">
+</p>
+
+## Progress Snapshot
+
+| Total Solved | Easy | Medium | Hard | Primary Language |
+| ---: | ---: | ---: | ---: | :--- |
+| 86 | 46 | 36 | 4 | Python |
+
+## Strongest Areas
+
+| Algorithm Pattern | Problems Solved |
+| --- | ---: |
+| Two Pointers | 17 |
+| Hash Map and Frequency | 15 |
+| Sliding Window | 13 |
+| Greedy | 8 |
+| Basic Array and String | 6 |
+| Bit Manipulation | 6 |
+
+## Featured Hard Problems
+
+| Problem | Core Idea |
+| --- | --- |
+| [0004-median-of-two-sorted-arrays](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0004-median-of-two-sorted-arrays) | Binary partition and divide-and-conquer reasoning |
+| [0042-trapping-rain-water](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/0042-trapping-rain-water) | Two-pointer boundary optimization |
+| [0135-candy](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0135-candy) | Greedy passes with local constraints |
+| [0218-the-skyline-problem](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0218-the-skyline-problem) | Sweep line and ordered active heights |
+
+## Repository Structure
+
+```text
+Algorithm Category/
+  0000-problem-slug/
+    0000-problem-slug.py
+    README.md
+```
+
+- Each problem folder contains one accepted solution file and the matching problem statement.
+- The top-level index is grouped by primary algorithm pattern to make revision easier.
+- `stats.json` tracks solved counts, difficulty split, and file hashes.
+- [GUIDE.md](GUIDE.md) documents the workflow for adding or updating solutions.
+
+## Maintenance
+
+Run these from the repository root after adding or improving a solution:
+
+```powershell
+python sync_stats.py --write
+python sync_stats.py --check
+```
+
+The solution index below is generated from the folder structure by `sync_stats.py`.
 
 <!---Algorithm Categories Start-->
 # Algorithm Categories
@@ -47,6 +107,7 @@ A collection of LeetCode questions solved by me!
 | [0003-longest-substring-without-repeating-characters](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0219-contains-duplicate-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/BibinSanju/LeetCode/tree/master/Sliding%20Window/0643-maximum-average-subarray-i) |

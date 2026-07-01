@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 46,
         "hard": 4,
-        "medium": 36,
+        "medium": 37,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "991bdbe648fab948a57da23e354e5ae6c4934a80"
+                "": "c485daf9c09528a2ecc5cf7845aa944f1f4bfd48"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -439,8 +439,13 @@
                 "0452-minimum-number-of-arrows-to-burst-balloons.py": "c5acb2df11be316b6c491a38ff0d711b3ccba9d4",
                 "README.md": "b8b82fbdffb4e76ab1950278dbf8800cdb4ea0ed",
                 "difficulty": "medium"
+            },
+            "0424-longest-repeating-character-replacement": {
+                "0424-longest-repeating-character-replacement.py": "a9647ca2a4ad80397c31e907f7a67e682b79a14f",
+                "README.md": "3c20f2b82f2a825f4ef7c301605845767dd6b0d3",
+                "difficulty": "medium"
             }
         },
-        "solved": 86
+        "solved": 87
     }
 }
