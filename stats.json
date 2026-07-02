@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 46,
+        "easy": 47,
         "hard": 4,
         "medium": 37,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "c485daf9c09528a2ecc5cf7845aa944f1f4bfd48"
+                "": "8629d0bf5e5987b022b0c6bb9db1fdd766c2b4c8"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -444,8 +444,13 @@
                 "0424-longest-repeating-character-replacement.py": "a9647ca2a4ad80397c31e907f7a67e682b79a14f",
                 "README.md": "3c20f2b82f2a825f4ef7c301605845767dd6b0d3",
                 "difficulty": "medium"
+            },
+            "0014-longest-common-prefix": {
+                "0014-longest-common-prefix.py": "01210dc033f2ba588cbd98009f3a3afb4f7a4ae2",
+                "README.md": "f20dcce95a4f216b1b45d696c978c8a34caeb413",
+                "difficulty": "easy"
             }
         },
-        "solved": 87
+        "solved": 88
     }
 }

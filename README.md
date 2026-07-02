@@ -195,6 +195,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 ## Trie
 | Problem |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/BibinSanju/LeetCode/tree/master/Trie/0014-longest-common-prefix) |
 ## Bit Manipulation
 | Problem |
 | ------- |
