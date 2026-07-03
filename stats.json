@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 47,
         "hard": 4,
-        "medium": 37,
+        "medium": 38,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "8629d0bf5e5987b022b0c6bb9db1fdd766c2b4c8"
+                "": "c099075cf32a1c1502a4d490305773ddb5ec218d"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -449,8 +449,13 @@
                 "0014-longest-common-prefix.py": "01210dc033f2ba588cbd98009f3a3afb4f7a4ae2",
                 "README.md": "f20dcce95a4f216b1b45d696c978c8a34caeb413",
                 "difficulty": "easy"
+            },
+            "0078-subsets": {
+                "0078-subsets.py": "27c7dc4041ca4f058f250a406b964dc4bb90f05f",
+                "README.md": "3ec383946e85cd59222de90301799e7d46d7b13d",
+                "difficulty": "medium"
             }
         },
-        "solved": 88
+        "solved": 89
     }
 }

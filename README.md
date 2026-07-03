@@ -157,6 +157,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 ## Backtracking
 | Problem |
 | ------- |
+| [0078-subsets](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0078-subsets) |
 ## Intervals
 | Problem |
 | ------- |
