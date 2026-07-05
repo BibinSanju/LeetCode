@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 47,
+        "easy": 48,
         "hard": 4,
         "medium": 38,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "c099075cf32a1c1502a4d490305773ddb5ec218d"
+                "": "5999175a1a895a39d87ed034ecc80d78b8379089"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -454,8 +454,13 @@
                 "0078-subsets.py": "27c7dc4041ca4f058f250a406b964dc4bb90f05f",
                 "README.md": "3ec383946e85cd59222de90301799e7d46d7b13d",
                 "difficulty": "medium"
+            },
+            "3982-sum-of-integers-with-maximum-digit-range": {
+                "3982-sum-of-integers-with-maximum-digit-range.py": "e1f4233f9cbdcc231abedcb0e7374107f9337a8e",
+                "README.md": "91a8052bad8e2679782656d0edf8e928d29fcfd1",
+                "difficulty": "easy"
             }
         },
-        "solved": 89
+        "solved": 90
     }
 }
