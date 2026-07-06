@@ -158,6 +158,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | Problem |
 | ------- |
 | [0078-subsets](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0078-subsets) |
+| [0980-unique-paths-iii](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0980-unique-paths-iii) |
 ## Intervals
 | Problem |
 | ------- |

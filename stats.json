@@ -1,7 +1,7 @@
 {
     "leetcode": {
         "easy": 48,
-        "hard": 4,
+        "hard": 5,
         "medium": 39,
         "shas": {
             "0454-4sum-ii": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "76015d59cd324ef097a88034bccd4986e03615c6"
+                "": "e6e6fbd8443f54700c04d97ea83f90028e2b9b43"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -464,8 +464,13 @@
                 "3983-subsequence-after-one-replacement.py": "9fc1743bfa55ab9a394232c6aa3bcdc4b65e5520",
                 "README.md": "9381821884216ec34f7ac497999460bf8dec5779",
                 "difficulty": "medium"
+            },
+            "0980-unique-paths-iii": {
+                "0980-unique-paths-iii.py": "3dae2fbba2cb6861336040a962ab223311675d2e",
+                "README.md": "9c558e357c41674e39880abb6c3209e539de42e2",
+                "difficulty": "hard"
             }
         },
-        "solved": 91
+        "solved": 92
     }
 }
