@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 48,
         "hard": 5,
-        "medium": 40,
+        "medium": 41,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "6711b55371bad7c93888c1e7e83ec4ce5e446260"
+                "": "2bbbbe55da5b95b7f9d0b0cedf23757fef366b38"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -474,8 +474,13 @@
                 "0198-house-robber.py": "3539a0bcaf0cbcaed8a8b048264fb4a7ed5f3913",
                 "README.md": "18266e06b4c400c5757f1a05ed5cec05a3f250c6",
                 "difficulty": "medium"
+            },
+            "0322-coin-change": {
+                "0322-coin-change.py": "ea7b8a59df8ece690e8e0829a69084ed6ab40b9a",
+                "README.md": "6b64ec5b7cb4399a8f2bdbd405683aefc9f166c6",
+                "difficulty": "medium"
             }
         },
-        "solved": 93
+        "solved": 94
     }
 }
