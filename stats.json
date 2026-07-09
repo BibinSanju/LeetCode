@@ -1,7 +1,7 @@
 {
     "leetcode": {
         "easy": 48,
-        "hard": 5,
+        "hard": 6,
         "medium": 42,
         "shas": {
             "0454-4sum-ii": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "39337ef641242e072d5075c7f2e25e2c827ecd2e"
+                "": "4899d20a6f93559d18684ae3ca9cabcde72005de"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -484,8 +484,13 @@
                 "0518-coin-change-ii.py": "a5b1e2bffd0ac0cf3a056e92784afebd18866cce",
                 "README.md": "1c6f7a208a7e28b6e0c4a94660ae7aa670164869",
                 "difficulty": "medium"
+            },
+            "0051-n-queens": {
+                "0051-n-queens.py": "ea5366ac30104765f560c9b648612bdf199f36e2",
+                "README.md": "47ea8b566b7359fb0a0736a67321059056169430",
+                "difficulty": "hard"
             }
         },
-        "solved": 95
+        "solved": 96
     }
 }
