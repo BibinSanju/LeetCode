@@ -1,7 +1,7 @@
 {
     "leetcode": {
         "easy": 48,
-        "hard": 6,
+        "hard": 7,
         "medium": 42,
         "shas": {
             "0454-4sum-ii": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "4899d20a6f93559d18684ae3ca9cabcde72005de"
+                "": "c15060640d9a521a0083a732eeba4229dc361267"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -489,8 +489,13 @@
                 "0051-n-queens.py": "ea5366ac30104765f560c9b648612bdf199f36e2",
                 "README.md": "47ea8b566b7359fb0a0736a67321059056169430",
                 "difficulty": "hard"
+            },
+            "0052-n-queens-ii": {
+                "0052-n-queens-ii.py": "d178b469725a25ef03f79058ff4bbdae03a9a08e",
+                "README.md": "e5b91df485cdae1fca6c71db4243731002497f61",
+                "difficulty": "hard"
             }
         },
-        "solved": 96
+        "solved": 97
     }
 }
