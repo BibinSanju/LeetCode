@@ -167,6 +167,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 ## Graph DFS and BFS
 | Problem |
 | ------- |
+| [0733-flood-fill](https://github.com/BibinSanju/LeetCode/tree/master/Graph%20DFS%20and%20BFS/0733-flood-fill) |
 ## Topological Sort and Dependency Graphs
 | Problem |
 | ------- |
