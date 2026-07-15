@@ -225,6 +225,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [1672-richest-customer-wealth](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1672-richest-customer-wealth) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2798-number-of-employees-who-met-the-target](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/2798-number-of-employees-who-met-the-target) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/3658-gcd-of-odd-and-even-sums) |
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/3982-sum-of-integers-with-maximum-digit-range) |
 | [3983-subsequence-after-one-replacement](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/3983-subsequence-after-one-replacement) |
 <!---Algorithm Categories End-->
