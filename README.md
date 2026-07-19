@@ -150,6 +150,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 ## Trees and BST
 | Problem |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/BibinSanju/LeetCode/tree/master/Trees%20and%20BST/0144-binary-tree-preorder-traversal) |
 ## Heap and Priority Queue
 | Problem |
 | ------- |
