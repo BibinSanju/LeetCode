@@ -186,6 +186,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0455-assign-cookies](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0455-assign-cookies) |
 | [0646-maximum-length-of-pair-chain](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0646-maximum-length-of-pair-chain) |
 | [0881-boats-to-save-people](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/0881-boats-to-save-people) |
+| [4000-largest-integer-with-given-digit-sum](https://github.com/BibinSanju/LeetCode/tree/master/Greedy/4000-largest-integer-with-given-digit-sum) |
 ## Dynamic Programming
 | Problem |
 | ------- |

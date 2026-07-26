@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 51,
+        "easy": 52,
         "hard": 7,
         "medium": 42,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "52349a898870dca7f8465e87425b842127782869"
+                "": "8bbac1baefb40945aeecbdbe8f8ac970d49c8648"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -509,8 +509,13 @@
                 "0144-binary-tree-preorder-traversal.py": "57143fa3c985403b58621a615d3470e0d63a703f",
                 "README.md": "b46684f529e36bb618ad363553a453432c5336f1",
                 "difficulty": "easy"
+            },
+            "4000-largest-integer-with-given-digit-sum": {
+                "4000-largest-integer-with-given-digit-sum.py": "2e04071490ce4f7e70bcd05b1b2dc2b1acecbd73",
+                "README.md": "7d243fda3482be9d6a2c10e46a70e804afc6531f",
+                "difficulty": "easy"
             }
         },
-        "solved": 100
+        "solved": 101
     }
 }
