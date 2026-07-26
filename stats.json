@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 52,
         "hard": 7,
-        "medium": 43,
+        "medium": 44,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "4ffe92688b70043dfae2e4fe0916f5a1f39679e2"
+                "": "a1109de0fc19760e7d8016c60233efc03f52fd62"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -519,8 +519,13 @@
                 "4002-count-valid-sequences.py": "cbdcfee0c9993af0b7c3e4fbca2ca323737369e9",
                 "README.md": "28f03991cad92b4726951682e6ad3019fb56567e",
                 "difficulty": "medium"
+            },
+            "4001-aggregate-two-time-series": {
+                "4001-aggregate-two-time-series.py": "bc3558edc785f2e7bc9ee37428be85a681472eb8",
+                "README.md": "28f03991cad92b4726951682e6ad3019fb56567e",
+                "difficulty": "medium"
             }
         },
-        "solved": 102
+        "solved": 103
     }
 }
