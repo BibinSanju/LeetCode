@@ -156,6 +156,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | Problem |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/BibinSanju/LeetCode/tree/master/Heap%20and%20Priority%20Queue/0347-top-k-frequent-elements) |
+| [4003-minimum-cost-path-with-alternating-directions-iii](https://github.com/BibinSanju/LeetCode/tree/master/Heap%20and%20Priority%20Queue/4003-minimum-cost-path-with-alternating-directions-iii) |
 ## Backtracking
 | Problem |
 | ------- |
