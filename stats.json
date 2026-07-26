@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 52,
         "hard": 7,
-        "medium": 42,
+        "medium": 43,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "8bbac1baefb40945aeecbdbe8f8ac970d49c8648"
+                "": "4ffe92688b70043dfae2e4fe0916f5a1f39679e2"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -514,8 +514,13 @@
                 "4000-largest-integer-with-given-digit-sum.py": "2e04071490ce4f7e70bcd05b1b2dc2b1acecbd73",
                 "README.md": "7d243fda3482be9d6a2c10e46a70e804afc6531f",
                 "difficulty": "easy"
+            },
+            "4002-count-valid-sequences": {
+                "4002-count-valid-sequences.py": "cbdcfee0c9993af0b7c3e4fbca2ca323737369e9",
+                "README.md": "28f03991cad92b4726951682e6ad3019fb56567e",
+                "difficulty": "medium"
             }
         },
-        "solved": 101
+        "solved": 102
     }
 }

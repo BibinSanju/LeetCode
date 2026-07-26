@@ -101,6 +101,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0977-squares-of-a-sorted-array](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/1768-merge-strings-alternately) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/2108-find-first-palindromic-string-in-the-array) |
+| [4002-count-valid-sequences](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/4002-count-valid-sequences) |
 ## Sliding Window
 | Problem |
 | ------- |
