@@ -102,7 +102,6 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [1768-merge-strings-alternately](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/1768-merge-strings-alternately) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/2108-find-first-palindromic-string-in-the-array) |
 | [4001-aggregate-two-time-series](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/4001-aggregate-two-time-series) |
-| [4002-count-valid-sequences](https://github.com/BibinSanju/LeetCode/tree/master/Two%20Pointers/4002-count-valid-sequences) |
 ## Sliding Window
 | Problem |
 | ------- |
@@ -164,6 +163,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0052-n-queens-ii](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0078-subsets) |
 | [0980-unique-paths-iii](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/0980-unique-paths-iii) |
+| [4002-count-valid-sequences](https://github.com/BibinSanju/LeetCode/tree/master/Backtracking/4002-count-valid-sequences) |
 ## Intervals
 | Problem |
 | ------- |
