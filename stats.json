@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 52,
+        "easy": 53,
         "hard": 8,
         "medium": 44,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "594b49cdd71140a11710d82406a76025d559253e"
+                "": "364fe120da26a55b69e2ea562b44dea38bac19a2"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -529,8 +529,13 @@
                 "4003-minimum-cost-path-with-alternating-directions-iii.py": "506335d83378d31a7deac209729714fed58acd6e",
                 "README.md": "8061c7404b41411f3154fa4b9a77329afb6d6b37",
                 "difficulty": "hard"
+            },
+            "1971-find-if-path-exists-in-graph": {
+                "1971-find-if-path-exists-in-graph.py": "b2a5016e5cc896fe9a6d3a49a48e68ecea099668",
+                "README.md": "94c211b4c014a2680fde260b3f077957829260d4",
+                "difficulty": "easy"
             }
         },
-        "solved": 104
+        "solved": 105
     }
 }

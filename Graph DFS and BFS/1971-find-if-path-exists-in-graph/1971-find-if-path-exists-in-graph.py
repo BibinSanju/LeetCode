@@ -1,0 +1,20 @@
+class Solution:
+    def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
+        graph = defaultdict(list)
+        for u,v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+        q = deque([source])
+        visited = set([source])
+
+        while q:
+            node = q.popleft()
+            
+            if node == destination:
+                return True
+            
+            for nei in graph[node]:
+                if nei not in visited:
+                    q.append(nei)
+                    visited.add(nei)
+        return False
