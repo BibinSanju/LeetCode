@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 53,
+        "easy": 54,
         "hard": 8,
         "medium": 45,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "151d5a9ba5bfdaed393114915fd24b54d096314d"
+                "": "1f82a2917afc4c80270c755c65856cfccb91cc2f"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -539,8 +539,13 @@
                 "1557-minimum-number-of-vertices-to-reach-all-nodes.py": "4221a05d0577295ee749508e4a646560ddd84e40",
                 "README.md": "b4b15f69e91a9b953514150fd3556ce969a69d74",
                 "difficulty": "medium"
+            },
+            "0108-convert-sorted-array-to-binary-search-tree": {
+                "0108-convert-sorted-array-to-binary-search-tree.py": "bb8fcb4aba20eb3112df96b58324c2219084c7e8",
+                "README.md": "ab06588ad3d51287efd625c98e1eedbfde030de6",
+                "difficulty": "easy"
             }
         },
-        "solved": 106
+        "solved": 107
     }
 }

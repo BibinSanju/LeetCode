@@ -138,6 +138,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | Problem |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0004-median-of-two-sorted-arrays) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0108-convert-sorted-array-to-binary-search-tree) |
 | [0218-the-skyline-problem](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0218-the-skyline-problem) |
 | [0912-sort-an-array](https://github.com/BibinSanju/LeetCode/tree/master/Divide%20and%20Conquer/0912-sort-an-array) |
 ## Linked List
