@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 56,
         "hard": 8,
-        "medium": 45,
+        "medium": 46,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "806a8f11eb161bb3cc8e53fe1171a630568b6277"
+                "": "84cb8ac79c2eb2794425476950d570238f257f3b"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -554,8 +554,13 @@
                 "0111-minimum-depth-of-binary-tree.py": "f20496ae60a445dd160b46f99f2426eed4824327",
                 "README.md": "f0a7cd8b88f9e640341e98d4ff27f110703320a4",
                 "difficulty": "easy"
+            },
+            "0102-binary-tree-level-order-traversal": {
+                "0102-binary-tree-level-order-traversal.py": "590979acdf4f57cb64b8c499be2ec896d1e2549f",
+                "README.md": "b93e23a32223dddac80ad0b7655f9fa28d5879f7",
+                "difficulty": "medium"
             }
         },
-        "solved": 109
+        "solved": 110
     }
 }
