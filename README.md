@@ -81,6 +81,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0532-k-diff-pairs-in-an-array](https://github.com/BibinSanju/LeetCode/tree/master/Hash%20Map%20and%20Frequency/0532-k-diff-pairs-in-an-array) |
 | [0923-3sum-with-multiplicity](https://github.com/BibinSanju/LeetCode/tree/master/Hash%20Map%20and%20Frequency/0923-3sum-with-multiplicity) |
 | [2133-check-if-every-row-and-column-contains-all-numbers](https://github.com/BibinSanju/LeetCode/tree/master/Hash%20Map%20and%20Frequency/2133-check-if-every-row-and-column-contains-all-numbers) |
+| [3731-find-missing-elements](https://github.com/BibinSanju/LeetCode/tree/master/Hash%20Map%20and%20Frequency/3731-find-missing-elements) |
 ## Two Pointers
 | Problem |
 | ------- |
