@@ -149,6 +149,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0138-copy-list-with-random-pointer](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0160-intersection-of-two-linked-lists) |
+| [0206-reverse-linked-list](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/BibinSanju/LeetCode/tree/master/Linked%20List/0876-middle-of-the-linked-list) |
 ## Trees and BST
