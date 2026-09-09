@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 57,
         "hard": 8,
-        "medium": 46,
+        "medium": 47,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "20616bf2cbd0d6171f497f9948e159ec2a4cef9d"
+                "": "e657d4c0e67d7493fd72dbb0df22d3851562c08f"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -564,8 +564,13 @@
                 "3731-find-missing-elements.py": "68c9e2a25004aba29b069643a3dbad1a0bf9cc90",
                 "README.md": "7210c54a6e8f3d344d24a29383af28fef790c7f7",
                 "difficulty": "easy"
+            },
+            "0138-copy-list-with-random-pointer": {
+                "0138-copy-list-with-random-pointer.py": "4aedbf9851d1fcd86defcb5fa9a4fff81e9fa07c",
+                "README.md": "3914cac48da45dbe235d8bcdaae4e701457aad2e",
+                "difficulty": "medium"
             }
         },
-        "solved": 111
+        "solved": 112
     }
 }
