@@ -1,5 +1,4 @@
-## Approach
+Use Floyd cycle detection (fast-slow pointer) approach
 
-use slow and fast pointers. fast moves two steps and slow moves one step. when fast reaches end, slow will be at the middle.
-TC = O(n)
+TC = O(N)
 SC = O(1)
