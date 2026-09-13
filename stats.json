@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 60,
+        "easy": 61,
         "hard": 8,
         "medium": 47,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "7f0586478b4b8149e520608a22c19aec76b5f68e"
+                "": "e87ad28072c7ffdba11651d8e3476661f99322bd"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -584,8 +584,13 @@
                 "0083-remove-duplicates-from-sorted-list.py": "00885baf331f80954f037463cdedb31499d0a0dc",
                 "README.md": "ad1d0417cb6bc5936384da8630e7d37d9163dfb9",
                 "difficulty": "easy"
+            },
+            "0605-can-place-flowers": {
+                "0605-can-place-flowers.py": "7a1a35d3c6948389b7f04657f7fa38da56c44f39",
+                "README.md": "392d3a7b897be43cc82345e3be9c00866b8e3f8b",
+                "difficulty": "easy"
             }
         },
-        "solved": 115
+        "solved": 116
     }
 }
