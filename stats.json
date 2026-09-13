@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 61,
+        "easy": 62,
         "hard": 8,
         "medium": 48,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "dbab3db74fdb7d3b59dff5a36216fd85c63c8e60"
+                "": "bdb6ed4d287c9f33bf92275a84bb18ca51c6b7e4"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -594,8 +594,13 @@
                 "0043-multiply-strings.py": "b5c67fb0bb17c7b0465cb17e633df6a4c5635066",
                 "README.md": "3aea0de2456ee67aac28f3c009f6fc4f0e1cb8f8",
                 "difficulty": "medium"
+            },
+            "4048-count-values-with-equally-spaced-occurrences-i": {
+                "4048-count-values-with-equally-spaced-occurrences-i.py": "9d6522fee22c3010966bdb0613374585f30037e3",
+                "README.md": "b1e55c90ef8c44c688a071296c944e46de01da3c",
+                "difficulty": "easy"
             }
         },
-        "solved": 117
+        "solved": 118
     }
 }
