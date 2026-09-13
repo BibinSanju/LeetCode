@@ -210,6 +210,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [0375-guess-number-higher-or-lower-ii](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/0375-guess-number-higher-or-lower-ii) |
 | [0518-coin-change-ii](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/0518-coin-change-ii) |
 | [0746-min-cost-climbing-stairs](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/0746-min-cost-climbing-stairs) |
+| [4050-minimum-days-to-score-exactly-n-points](https://github.com/BibinSanju/LeetCode/tree/master/Dynamic%20Programming/4050-minimum-days-to-score-exactly-n-points) |
 ## Game Theory
 | Problem |
 | ------- |

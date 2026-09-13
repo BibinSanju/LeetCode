@@ -2,7 +2,7 @@
     "leetcode": {
         "easy": 62,
         "hard": 8,
-        "medium": 49,
+        "medium": 50,
         "shas": {
             "0454-4sum-ii": {
                 "0454-4sum-ii.py": "691cf98536cf1021f6e08976d4ab11a7ad984c71",
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "8b3babc04b82fe39ce02682780b079c5c93b6268"
+                "": "42a69f47dce2614630310608ad355ce0ea76703c"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -604,8 +604,13 @@
                 "4049-count-values-with-equally-spaced-occurrences-ii.py": "96af817719ca595fbe38e6bb0856edc72fc127af",
                 "README.md": "5777fb6e81483e17d7dd2ae6e6a9a1065e0fa1cf",
                 "difficulty": "medium"
+            },
+            "4050-minimum-days-to-score-exactly-n-points": {
+                "4050-minimum-days-to-score-exactly-n-points.py": "42286aec2b16d94a80a1e7171add523745d2042a",
+                "README.md": "70926ada018febb5811a001380b014f8064dc142",
+                "difficulty": "medium"
             }
         },
-        "solved": 119
+        "solved": 120
     }
 }
