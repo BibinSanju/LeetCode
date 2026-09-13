@@ -235,6 +235,7 @@ The solution index below is generated from the folder structure by `sync_stats.p
 ## Basic Array and String
 | Problem |
 | ------- |
+| [0043-multiply-strings](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/0043-multiply-strings) |
 | [0414-third-maximum-number](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/0414-third-maximum-number) |
 | [0821-shortest-distance-to-a-character](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/0821-shortest-distance-to-a-character) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/1295-find-numbers-with-even-number-of-digits) |
