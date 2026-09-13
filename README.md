@@ -247,4 +247,5 @@ The solution index below is generated from the folder structure by `sync_stats.p
 | [3982-sum-of-integers-with-maximum-digit-range](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/3982-sum-of-integers-with-maximum-digit-range) |
 | [3983-subsequence-after-one-replacement](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/3983-subsequence-after-one-replacement) |
 | [4048-count-values-with-equally-spaced-occurrences-i](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/4048-count-values-with-equally-spaced-occurrences-i) |
+| [4049-count-values-with-equally-spaced-occurrences-ii](https://github.com/BibinSanju/LeetCode/tree/master/Basic%20Array%20and%20String/4049-count-values-with-equally-spaced-occurrences-ii) |
 <!---Algorithm Categories End-->
