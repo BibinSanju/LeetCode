@@ -1,6 +1,6 @@
 {
     "leetcode": {
-        "easy": 62,
+        "easy": 63,
         "hard": 8,
         "medium": 50,
         "shas": {
@@ -10,7 +10,7 @@
                 "difficulty": "medium"
             },
             "README.md": {
-                "": "42a69f47dce2614630310608ad355ce0ea76703c"
+                "": "706900972a84fb042e4c832311bbbe7faecef797"
             },
             "0242-valid-anagram": {
                 "0242-valid-anagram.py": "b3be409248904d39d95c98fb620084a13abd7bcc",
@@ -609,8 +609,13 @@
                 "4050-minimum-days-to-score-exactly-n-points.py": "42286aec2b16d94a80a1e7171add523745d2042a",
                 "README.md": "70926ada018febb5811a001380b014f8064dc142",
                 "difficulty": "medium"
+            },
+            "0190-reverse-bits": {
+                "0190-reverse-bits.py": "25738357c1188b635b5fde988ae5630ab3934764",
+                "README.md": "b3b820e88103293f601453b1718674e804b2572d",
+                "difficulty": "easy"
             }
         },
-        "solved": 120
+        "solved": 121
     }
 }
